@@ -283,7 +283,7 @@ footer {
     align-items: center;
     position: relative;
     top: -45px;
-
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .saibamais img {
@@ -315,11 +315,23 @@ footer {
 
 .rodape {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     margin-bottom: 50px;
-    width: 1200px;
+    width: 1000px;
 }
 
 .rodape h2 {
     font-size: 20px;
+}
+
+.rodape li {
+    font-size: 10px;
+}
+.rodape img {
+    width: 300px;
+}
+
+.cont img {
+    width: 50px;
 }
